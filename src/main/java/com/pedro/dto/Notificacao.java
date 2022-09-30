@@ -1,4 +1,4 @@
-package com.boaglio.casadocodigo.greendogdelivery.dto;
+package com.pedro.dto;
 
 
 public interface Notificacao {

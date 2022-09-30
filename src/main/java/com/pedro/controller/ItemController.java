@@ -1,5 +1,5 @@
 
-package com.boaglio.casadocodigo.greendogdelivery.controller;
+package com.pedro.controller;
 
 import javax.validation.Valid;
 
@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import com.boaglio.casadocodigo.greendogdelivery.domain.Item;
-import com.boaglio.casadocodigo.greendogdelivery.repository.ItemRepository;
+import com.pedro.domain.Item;
+import com.pedro.repository.ItemRepository;
 
 @Controller
 @RequestMapping("/itens")

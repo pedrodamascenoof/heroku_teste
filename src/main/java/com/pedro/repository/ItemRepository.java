@@ -1,9 +1,9 @@
-package com.boaglio.casadocodigo.greendogdelivery.repository;
+package com.pedro.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 
-import com.boaglio.casadocodigo.greendogdelivery.domain.Item;
+import com.pedro.domain.Item;
 
 //@Repository
 @RepositoryRestResource(collectionResourceRel = "itens",path = "itens")

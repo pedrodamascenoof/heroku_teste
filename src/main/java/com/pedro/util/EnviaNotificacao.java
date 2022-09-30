@@ -1,11 +1,11 @@
-package com.boaglio.casadocodigo.greendogdelivery.util;
+package com.pedro.util;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.boaglio.casadocodigo.greendogdelivery.domain.Cliente;
-import com.boaglio.casadocodigo.greendogdelivery.domain.Pedido;
-import com.boaglio.casadocodigo.greendogdelivery.dto.Notificacao;
+import com.pedro.domain.Cliente;
+import com.pedro.domain.Pedido;
+import com.pedro.dto.Notificacao;
 
 @Component
 public class EnviaNotificacao {

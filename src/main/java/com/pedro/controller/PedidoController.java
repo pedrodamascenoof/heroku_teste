@@ -1,5 +1,5 @@
 
-package com.boaglio.casadocodigo.greendogdelivery.controller;
+package com.pedro.controller;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -17,12 +17,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import com.boaglio.casadocodigo.greendogdelivery.domain.Cliente;
-import com.boaglio.casadocodigo.greendogdelivery.domain.Item;
-import com.boaglio.casadocodigo.greendogdelivery.domain.Pedido;
-import com.boaglio.casadocodigo.greendogdelivery.repository.ClienteRepository;
-import com.boaglio.casadocodigo.greendogdelivery.repository.ItemRepository;
-import com.boaglio.casadocodigo.greendogdelivery.repository.PedidoRepository;
+import com.pedro.domain.Cliente;
+import com.pedro.domain.Item;
+import com.pedro.domain.Pedido;
+import com.pedro.repository.ClienteRepository;
+import com.pedro.repository.ItemRepository;
+import com.pedro.repository.PedidoRepository;
 
 @Controller
 @RequestMapping("/pedidos")

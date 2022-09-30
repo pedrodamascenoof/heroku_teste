@@ -10,8 +10,8 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.boaglio.casadocodigo.greendogdelivery.domain.Cliente;
-import com.boaglio.casadocodigo.greendogdelivery.repository.ClienteRepository;
+import com.pedro.domain.Cliente;
+import com.pedro.repository.ClienteRepository;
  
 @RunWith(SpringRunner.class)
 @SpringBootTest

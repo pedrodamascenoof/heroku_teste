@@ -1,4 +1,4 @@
-package com.boaglio.casadocodigo.greendogdelivery.domain;
+package com.pedro.domain;
 
 import java.util.Date;
 import java.util.List;

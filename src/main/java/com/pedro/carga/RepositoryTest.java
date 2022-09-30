@@ -1,4 +1,4 @@
-package com.boaglio.casadocodigo.greendogdelivery.carga;
+package com.pedro.carga;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -7,10 +7,10 @@ import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.stereotype.Component;
 
-import com.boaglio.casadocodigo.greendogdelivery.domain.Cliente;
-import com.boaglio.casadocodigo.greendogdelivery.domain.Item;
-import com.boaglio.casadocodigo.greendogdelivery.domain.Pedido;
-import com.boaglio.casadocodigo.greendogdelivery.repository.ClienteRepository;
+import com.pedro.domain.Cliente;
+import com.pedro.domain.Item;
+import com.pedro.domain.Pedido;
+import com.pedro.repository.ClienteRepository;
 
 
 

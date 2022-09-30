@@ -1,4 +1,4 @@
-package com.boaglio.casadocodigo.greendogdelivery.rest;
+package com.pedro.rest;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -11,13 +11,13 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.boaglio.casadocodigo.greendogdelivery.domain.Cliente;
-import com.boaglio.casadocodigo.greendogdelivery.domain.Item;
-import com.boaglio.casadocodigo.greendogdelivery.domain.Pedido;
-import com.boaglio.casadocodigo.greendogdelivery.dto.RespostaDTO;
-import com.boaglio.casadocodigo.greendogdelivery.repository.ClienteRepository;
-import com.boaglio.casadocodigo.greendogdelivery.repository.ItemRepository;
-import com.boaglio.casadocodigo.greendogdelivery.util.EnviaNotificacao;
+import com.pedro.domain.Cliente;
+import com.pedro.domain.Item;
+import com.pedro.domain.Pedido;
+import com.pedro.dto.RespostaDTO;
+import com.pedro.repository.ClienteRepository;
+import com.pedro.repository.ItemRepository;
+import com.pedro.util.EnviaNotificacao;
 
 @RestController 
 public class NovoPedidoController {

@@ -1,5 +1,5 @@
 
-package com.boaglio.casadocodigo.greendogdelivery.controller;
+package com.pedro.controller;
 
 import java.util.Properties;
 

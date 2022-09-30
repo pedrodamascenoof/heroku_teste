@@ -1,9 +1,9 @@
-package com.boaglio.casadocodigo.greendogdelivery.config;
+package com.pedro.config;
 
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;
 
-import com.boaglio.casadocodigo.greendogdelivery.dto.Notificacao;
+import com.pedro.dto.Notificacao;
 
 @Component
 @Profile("!prod")

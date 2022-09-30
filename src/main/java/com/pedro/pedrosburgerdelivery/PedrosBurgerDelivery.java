@@ -1,4 +1,4 @@
-package com.boaglio.casadocodigo.greendogdelivery;
+package com.pedro.pedrosburgerdelivery;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

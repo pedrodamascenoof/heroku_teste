@@ -1,4 +1,4 @@
-package com.boaglio.casadocodigo.greendogdelivery.domain;
+package com.pedro.domain;
 
 import java.util.ArrayList;
 import java.util.List;

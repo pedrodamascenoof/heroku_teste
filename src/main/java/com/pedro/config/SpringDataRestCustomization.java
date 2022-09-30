@@ -1,12 +1,12 @@
-package com.boaglio.casadocodigo.greendogdelivery.config;
+package com.pedro.config;
 
 import org.springframework.data.rest.core.config.RepositoryRestConfiguration;
 import org.springframework.data.rest.webmvc.config.RepositoryRestConfigurer;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
 
-import com.boaglio.casadocodigo.greendogdelivery.domain.Item;
-import com.boaglio.casadocodigo.greendogdelivery.repository.ClienteRepository;
+import com.pedro.domain.Item;
+import com.pedro.repository.ClienteRepository;
 
 @Component
 public class SpringDataRestCustomization 
